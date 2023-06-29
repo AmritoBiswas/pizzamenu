@@ -1,3 +1,34 @@
 .header {
+  align-self: stretch;
+}
+
+.heading {
   text-transform: uppercase;
+  text-align: center;
+  font-size: 5.2rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  position: relative;
+  width: 100%;
+  display: block;
+  color: #edc84b;
+}
+
+.heading::before,
+.heading::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 4rem;
+  background-color: #edc84b;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.heading::before {
+  left: 0;
+}
+
+.heading::after {
+  right: 0;
 }

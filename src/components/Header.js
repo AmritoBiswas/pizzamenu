@@ -3,8 +3,8 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-      <h1 className="header">fast react pizza co.</h1>
+    <div className="header">
+      <h1 className="heading">fast react pizza co.</h1>
     </div>
   );
 };
